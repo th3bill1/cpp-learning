@@ -2,13 +2,17 @@
 
 using namespace std;
 
-void LabChoosing(int);
+bool LabChoosing(int);
 int main(void)
 {
-	int lab_number;
-	cout << "put the number of Lab you want to see: ";
-	cin >> lab_number;
-	cout << "\n";
-	LabChoosing(lab_number);
+	bool is_active = true;
+	while (is_active)
+	{
+		int lab_number;
+		cout << "Put the number of Lab you want to see: ";
+		cin >> lab_number;
+		cout << endl;
+		is_active = LabChoosing(lab_number);
+	}
 	return 0;
 }

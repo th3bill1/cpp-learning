@@ -2,8 +2,9 @@
 #include<math.h>
 #include<iostream>
 #include "cmplx.h"
-#define pow(a) (a*a)
 using namespace std;
+
+inline double pow(double a) { return (a * a); };
 
 void CMPLX::ReadC()
 {
@@ -57,7 +58,7 @@ void CMPLX::PrintCarr(int size)
 
 double* CMPLX::ArrOfAbs(int size)
 {
-	double* tab_of_abs = (double*)calloc(size,sizeof(double));
+	double* tab_of_abs = new double[size];
 	for (int i = 0; i < size; i++)
 	{
 		tab_of_abs[i] = this[i].AbsC();
@@ -67,10 +68,12 @@ double* CMPLX::ArrOfAbs(int size)
 
 void CMPLX::PrintTabOfAbs(int size)
 {
+	double* arr_of_abs = this->ArrOfAbs(size);
 	for (int i = 0; i < size; i++)
 	{
-		cout << this->ArrOfAbs(size)[i] << " ";
+		cout << arr_of_abs[i] << " ";
 	}
+	delete[] arr_of_abs;
 }
 
 void CMPLX::SwapCMPLX(int idx_1, int idx_2)
