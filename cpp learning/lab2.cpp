@@ -28,7 +28,4 @@ void Lab2()
 
 	Fraction u4(8, -10);
 	cout << u4;
-
-	cout << endl;
-
 }
