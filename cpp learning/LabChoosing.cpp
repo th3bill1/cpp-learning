@@ -1,4 +1,5 @@
 #include<iostream>
+
 void Lab1(void);
 
 using namespace std;

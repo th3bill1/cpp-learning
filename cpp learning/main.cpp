@@ -3,6 +3,7 @@
 using namespace std;
 
 bool LabChoosing(int);
+
 int main(void)
 {
 	bool is_active = true;
