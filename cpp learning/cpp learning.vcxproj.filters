@@ -27,9 +27,18 @@
     <ClCompile Include="LabChoosing.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="fraction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lab2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cmplx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fraction.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

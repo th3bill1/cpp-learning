@@ -128,12 +128,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="cmplx.cpp" />
+    <ClCompile Include="fraction.cpp" />
     <ClCompile Include="Lab1.cpp" />
+    <ClCompile Include="lab2.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="LabChoosing.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cmplx.h" />
+    <ClInclude Include="fraction.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
