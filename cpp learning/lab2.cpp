@@ -3,7 +3,7 @@ using namespace std;
 #include "fraction.h"
 
 
-int main()
+void Lab2()
 {
 	Fraction u1, u2;
 
