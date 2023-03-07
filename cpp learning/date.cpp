@@ -6,6 +6,7 @@ using namespace std;
 const int M = 12;	//number of months
 static int dl[M] = { 31,28,31,30,31,30,31,31,30,31,30,31 };
 static string months[] = { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" };
+bool IsLeep(int);
 
 bool& Date::SetFormat()
 {

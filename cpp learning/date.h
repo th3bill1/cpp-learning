@@ -28,4 +28,3 @@ public:
 	friend bool ifLess(Date, Date);
 	friend int NuberOfDays(Date, Date);
 };
-

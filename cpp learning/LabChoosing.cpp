@@ -1,6 +1,7 @@
 #include<iostream>
 void Lab1();
 void Lab2();
+void Lab3();
 
 using namespace std;
 
@@ -23,6 +24,10 @@ bool LabChoosing(int lab_num)
 	case 2: 
 		PreLabInfo(lab_num);
 		Lab2();
+		return false;
+	case 3: 
+		PreLabInfo(lab_num);
+		Lab3();
 		return false;
 	default:
 		cout << "There is no such lab!" << endl << endl;
