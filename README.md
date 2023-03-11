@@ -6,4 +6,7 @@
 ## Lab 2:
 ![image](https://user-images.githubusercontent.com/27778188/224505162-4f2e0e33-4d92-43cc-b5be-d8db0f8bec23.png)
 ### Lab date: 28.02.2023
+## Lab 3:
+![image](https://user-images.githubusercontent.com/27778188/224505204-76dda308-b70b-4a7c-b032-af22f1616740.png)
+### Lab date: 07.03.2023
 ### Final version of the project: 22.02.2023
