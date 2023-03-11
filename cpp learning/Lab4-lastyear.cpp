@@ -2,7 +2,7 @@
 using namespace std;
 #include "ZoneClock.h"
 
-void Lab4_ly()
+void Lab4_d()
 {
 	cout << "--------------- Part 1 ---------------" << endl;
 
@@ -20,9 +20,9 @@ void Lab4_ly()
 
 	cout << "--------------- Part 2 ---------------" << endl;
 
-	/*ZoneClock c10, c11, c12;
+	ZoneClock c10, c11, c12;
 	cin >> c10 >> c11 >> c12;
-	cout << c10 << c11 << c12;*/
+	cout << c10 << c11 << c12;
 
 	cout << "--------------- Part 3 ---------------" << endl;
 
