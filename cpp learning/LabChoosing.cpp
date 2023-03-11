@@ -2,6 +2,7 @@
 void Lab1();
 void Lab2();
 void Lab3();
+void Lab4_ly();
 
 using namespace std;
 
@@ -28,6 +29,10 @@ bool LabChoosing(int lab_num)
 	case 3: 
 		PreLabInfo(lab_num);
 		Lab3();
+		return false;
+	case 40: 
+		PreLabInfo(lab_num);
+		Lab4_ly();
 		return false;
 	default:
 		cout << "There is no such lab!" << endl << endl;
