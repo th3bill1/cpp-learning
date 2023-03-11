@@ -9,4 +9,8 @@
 ## Lab 3:
 ![image](https://user-images.githubusercontent.com/27778188/224505204-76dda308-b70b-4a7c-b032-af22f1616740.png)
 ### Lab date: 07.03.2023
+###
+###
+## Lab 4 - drive:
+![image](https://user-images.githubusercontent.com/27778188/224505500-bbeae89f-c1da-490d-9bf0-f4069b15864b.png)
 ### Final version of the project: 22.02.2023
