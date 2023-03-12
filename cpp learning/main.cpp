@@ -9,7 +9,7 @@ int main(void)
 	while (is_active)
 	{
 		int lab_number;
-		cout << "Put the number of Lab you want to see: ";
+		cout << "Put the number of Lab you want to see (#0 for labs from the drive, where # is the number of lab): ";
 		cin >> lab_number;
 		cout << endl;
 		is_active = LabChoosing(lab_number);

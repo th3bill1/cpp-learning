@@ -129,11 +129,13 @@
   <ItemGroup>
     <ClCompile Include="cmplx.cpp" />
     <ClCompile Include="date.cpp" />
+    <ClCompile Include="FloatNumber.cpp" />
     <ClCompile Include="fraction.cpp" />
     <ClCompile Include="Lab1.cpp" />
     <ClCompile Include="lab2.cpp" />
+    <ClCompile Include="Lab3-drive.cpp" />
     <ClCompile Include="Lab3.cpp" />
-    <ClCompile Include="Lab4-lastyear.cpp" />
+    <ClCompile Include="Lab4-drive.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="LabChoosing.cpp" />
     <ClCompile Include="ZoneClock.cpp" />
@@ -141,8 +143,16 @@
   <ItemGroup>
     <ClInclude Include="cmplx.h" />
     <ClInclude Include="date.h" />
+    <ClInclude Include="FloatNumber.h" />
     <ClInclude Include="fraction.h" />
     <ClInclude Include="ZoneClock.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Downloads\lab1\Lab1_stud\Lab1.pdf" />
+    <None Include="..\..\..\..\Downloads\lab2\Lab2_stud\lab2.pdf" />
+    <None Include="..\..\..\..\Downloads\Lab3-drive.pdf" />
+    <None Include="..\..\..\..\Downloads\lab3\Lab 3 stud\Lab3.pdf" />
+    <None Include="..\..\..\..\Downloads\Lab4-drive.pdf" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
