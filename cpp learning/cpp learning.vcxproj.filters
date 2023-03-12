@@ -30,7 +30,7 @@
     <ClCompile Include="fraction.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="lab2.cpp">
+    <ClCompile Include="Lab2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Lab3.cpp">

@@ -132,7 +132,7 @@
     <ClCompile Include="FloatNumber.cpp" />
     <ClCompile Include="fraction.cpp" />
     <ClCompile Include="Lab1.cpp" />
-    <ClCompile Include="lab2.cpp" />
+    <ClCompile Include="Lab2.cpp" />
     <ClCompile Include="Lab3-drive.cpp" />
     <ClCompile Include="Lab3.cpp" />
     <ClCompile Include="Lab4-drive.cpp" />
