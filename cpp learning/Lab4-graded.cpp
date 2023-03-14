@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main() {
+void Lab4_g() {
 
     cout << "\n********************* PART 2 *********************\n\n";
 
@@ -51,6 +51,4 @@ int main() {
         cout << card1 << endl;
         card1 += card2;
         cout << card1 << endl;
-
-    return 0;
 }
