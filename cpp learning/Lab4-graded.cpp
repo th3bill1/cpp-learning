@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void Lab4_g() {
+void Lab4() {
 
     cout << "\n********************* PART 2 *********************\n\n";
 
