@@ -131,6 +131,8 @@
     <ClCompile Include="CreditCard.cpp" />
     <ClCompile Include="date.cpp" />
     <ClCompile Include="Depot.cpp" />
+    <ClCompile Include="dice.cpp" />
+    <ClCompile Include="dice_tower.cpp" />
     <ClCompile Include="FloatNumber.cpp" />
     <ClCompile Include="fraction.cpp" />
     <ClCompile Include="Lab1.cpp" />
@@ -140,6 +142,7 @@
     <ClCompile Include="Lab4-drive.cpp" />
     <ClCompile Include="Lab4-graded.cpp" />
     <ClCompile Include="Lab5.cpp" />
+    <ClCompile Include="Lab6-graded.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="LabChoosing.cpp" />
     <ClCompile Include="Tram.cpp" />
@@ -150,6 +153,8 @@
     <ClInclude Include="CreditCard.h" />
     <ClInclude Include="date.h" />
     <ClInclude Include="Depot.h" />
+    <ClInclude Include="dice.h" />
+    <ClInclude Include="dice_tower.h" />
     <ClInclude Include="FloatNumber.h" />
     <ClInclude Include="fraction.h" />
     <ClInclude Include="Tram.h" />
