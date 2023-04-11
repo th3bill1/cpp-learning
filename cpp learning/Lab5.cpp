@@ -40,7 +40,7 @@ void Lab5() {
 		cout<<endl<<"Checking trams condition"<<endl;
 		check(t1);
 		check(t2);
-		/*
+		
 		cout<<"==== Part 3 2p ===="<<endl<<endl;
 
 		Depot Wola("Wola"), Praga("Praga"), Zoliborz("Zoliborz"), Mokotow("Mokotow");
@@ -57,11 +57,10 @@ void Lab5() {
 
 		Wola+=t3;
 		Wola+=t4;
-
+		cout << Wola;
 		cout<<"Sending trams:"<<endl;
 		Wola.send_first();
 		Wola.send_first();
 		Wola.send_first();
 		Wola.send_first();
-		*/
 }

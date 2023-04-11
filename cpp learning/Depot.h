@@ -1,8 +1,10 @@
 #pragma once
-
+#include <iostream>
 #include "Tram.h"
 
 const int MAX_TRAMS = 20;
+
+using namespace std;
 
 class Depot {
 
@@ -11,9 +13,11 @@ class Depot {
 	char depot_id[32];
 
 public:
-	Depot();
+	Depot(const char*);
 
-	void operator+=(Depot t);
 	void send_first();
+	int atBase();
 
+	friend void operator+=(Depot&, Tram);
+	friend ostream& operator<<(ostream&, Depot);
 };

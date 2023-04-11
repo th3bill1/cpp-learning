@@ -8,12 +8,13 @@ void DiceTower::insert(Dice d)
 	else if (this->dice[1] == nullptr) this->dice[1] = &d;
 	else
 	{
-		if (rand() % 3 == 0)
+		int temp = rand() % 3;
+		if (temp == 0)
 		{
 			this->sum += this->dice[0]->value();
 			this->dice[0] = &d;
 		}
-		else if (rand() % 3 == 0)
+		else if (temp == 1)
 		{
 			this->sum += this->dice[1]->value();
 			this->dice[1] = &d;

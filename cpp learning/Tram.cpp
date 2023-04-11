@@ -7,19 +7,23 @@ int Tram::max_id = 0;
 
 void Tram::returnDepot(char* c)
 {
-	for (int i = 0; i < min(NAME_SIZE, (int)strlen(c)); i++)
+	int max_index = min(NAME_SIZE, (int)strlen(c));
+	for (int i = 0; i < max_index; i++)
 	{
 		this->depot_name[i] = c[i];
 	}
+	this->depot_name[max_index] = '\0';
 }
 
 Tram::Tram(const char* c) : tram_id(++max_id), status(state::off), line_no(-1)
 {
 	this->depot_name[0] = '\0';
-	for (int i = 0; i < min(NAME_SIZE,(int)strlen(c)); i++)
+	int max_index = min(NAME_SIZE, (int)strlen(c));
+	for (int i = 0; i < max_index; i++)
 	{
 		this->depot_name[i] = c[i];
 	}
+	this->depot_name[max_index] = '\0';
 }
 
 int Tram::getID()
@@ -57,7 +61,7 @@ void check(Tram t)
 
 ostream& operator<<(ostream& os, Tram t)
 {
-	cout << "Tram " << t.tram_id;
+	cout << "Tram " << t.tram_id << "(" << t.depot_name << ")";
 	if (t.status == 'o') cout << " off";
 	if (t.status == 'r') cout << " ready";
 	if (t.status == 'w') cout << " working";

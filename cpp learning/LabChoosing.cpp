@@ -7,6 +7,8 @@ void Lab4_d();
 void Lab4();
 void Lab5();
 void Lab6();
+void Lab7();
+void Lab8();
 
 using namespace std;
 
@@ -15,8 +17,8 @@ void PreLabInfo(int lab_num)
 	string lab_heading = "---------------------------------------------------\n";
 	cout << endl << lab_heading;
 
-	if (lab_num > 10) cout << "\t\tLAB " << lab_num/10 << " - drive";
-	if (lab_num % 2 ==0 && lab_num!=2 && lab_num < 20) cout << "\t\tLAB " << lab_num << " - graded";
+	if (lab_num % 10 == 0) cout << "\t\tLAB " << lab_num/10 << " - drive";
+	if (lab_num % 2 ==0 && lab_num!=2 && lab_num % 10 != 0) cout << "\t\tLAB " << lab_num << " - graded";
 	else cout << "\t\t\tLAB " << lab_num;
 	cout << endl << lab_heading << endl;
 }
@@ -40,6 +42,7 @@ bool LabChoosing(int lab_num)
 	case 4: 
 		PreLabInfo(lab_num);
 		Lab4();
+		return false;
 	case 5: 
 		PreLabInfo(lab_num);
 		Lab5();
@@ -47,6 +50,14 @@ bool LabChoosing(int lab_num)
 	case 6: 
 		PreLabInfo(lab_num);
 		Lab6();
+		return false;
+	case 7:
+		PreLabInfo(lab_num);
+		Lab7();
+		return false;
+	case 8:
+		PreLabInfo(lab_num);
+		Lab8();
 		return false;
 	case 30: 
 		PreLabInfo(lab_num);
