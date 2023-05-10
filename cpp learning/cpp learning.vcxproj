@@ -127,22 +127,31 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Animal.cpp" />
+    <ClCompile Include="ArcaneMissilesSpell.cpp" />
+    <ClCompile Include="Bear.cpp" />
     <ClCompile Include="card.cpp" />
+    <ClCompile Include="Character.cpp" />
     <ClCompile Include="cmplx.cpp" />
     <ClCompile Include="CreditCard.cpp" />
     <ClCompile Include="date.cpp" />
     <ClCompile Include="Depot.cpp" />
     <ClCompile Include="dice.cpp" />
     <ClCompile Include="dice_tower.cpp" />
+    <ClCompile Include="Ecosystem.cpp" />
     <ClCompile Include="element.cpp" />
     <ClCompile Include="expr_tree.cpp" />
     <ClCompile Include="expr_tree_negation.cpp" />
     <ClCompile Include="expr_tree_number.cpp" />
     <ClCompile Include="expr_tree_subtraction.cpp" />
     <ClCompile Include="FloatNumber.cpp" />
+    <ClCompile Include="Flower.cpp" />
     <ClCompile Include="fraction.cpp" />
+    <ClCompile Include="HealingTouchSpell.cpp" />
     <ClCompile Include="history.cpp" />
     <ClCompile Include="Lab1.cpp" />
+    <ClCompile Include="Lab10-graded.cpp" />
+    <ClCompile Include="Lab11-graded.cpp" />
     <ClCompile Include="Lab2.cpp" />
     <ClCompile Include="Lab3-drive.cpp" />
     <ClCompile Include="Lab3.cpp" />
@@ -156,33 +165,50 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="LabChoosing.cpp" />
     <ClCompile Include="Matrix.cpp" />
+    <ClCompile Include="Organism.cpp" />
     <ClCompile Include="parser.cpp" />
     <ClCompile Include="pattern.cpp" />
+    <ClCompile Include="Plant.cpp" />
+    <ClCompile Include="Spell.cpp" />
     <ClCompile Include="Tram.cpp" />
     <ClCompile Include="Vector.cpp" />
+    <ClCompile Include="Warlock.cpp" />
+    <ClCompile Include="Warrior.cpp" />
     <ClCompile Include="ZoneClock.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Animal.h" />
+    <ClInclude Include="ArcaneMissilesSpell.h" />
+    <ClInclude Include="Bear.h" />
     <ClInclude Include="card.h" />
+    <ClInclude Include="Character.h" />
     <ClInclude Include="cmplx.h" />
     <ClInclude Include="CreditCard.h" />
     <ClInclude Include="date.h" />
     <ClInclude Include="Depot.h" />
     <ClInclude Include="dice.h" />
     <ClInclude Include="dice_tower.h" />
+    <ClInclude Include="Ecosystem.h" />
     <ClInclude Include="element.h" />
     <ClInclude Include="expr_tree.h" />
     <ClInclude Include="expr_tree_negation.h" />
     <ClInclude Include="expr_tree_number.h" />
     <ClInclude Include="expr_tree_subtraction.h" />
     <ClInclude Include="FloatNumber.h" />
+    <ClInclude Include="Flower.h" />
     <ClInclude Include="fraction.h" />
+    <ClInclude Include="HealingTouchSpell.h" />
     <ClInclude Include="history.h" />
     <ClInclude Include="Matrix.h" />
+    <ClInclude Include="Organism.h" />
     <ClInclude Include="parser.h" />
     <ClInclude Include="pattern.h" />
+    <ClInclude Include="Plant.h" />
+    <ClInclude Include="Spell.h" />
     <ClInclude Include="Tram.h" />
     <ClInclude Include="Vector.h" />
+    <ClInclude Include="Warlock.h" />
+    <ClInclude Include="Warrior.h" />
     <ClInclude Include="ZoneClock.h" />
   </ItemGroup>
   <ItemGroup>
