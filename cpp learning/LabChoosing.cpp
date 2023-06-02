@@ -12,6 +12,8 @@ void Lab8();
 void Lab9();
 void Lab10();
 void Lab11();
+void Lab13();
+void Lab14();
 
 using namespace std;
 
@@ -73,6 +75,14 @@ bool LabChoosing(int lab_num)
 	case 11:
 		PreLabInfo(lab_num);
 		Lab11();
+		return false;
+	case 13:
+		PreLabInfo(lab_num);
+		Lab13();
+		return false;
+	case 14:
+		PreLabInfo(lab_num);
+		Lab14();
 		return false;
 	case 30: 
 		PreLabInfo(lab_num);

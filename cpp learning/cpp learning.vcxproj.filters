@@ -159,6 +159,24 @@
     <ClCompile Include="HealingTouchSpell.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Lab13-graded.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="myStack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab14-graded.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LeagueMatches.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Match.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MatchComparator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cmplx.h">
@@ -258,6 +276,27 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="HealingTouchSpell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="myStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stackADT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CollectionUtilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LeagueMatches.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Match.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MatchComparator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UtilitiesTester.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
